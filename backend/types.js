@@ -5,11 +5,11 @@ const createTodo = zod.object({
   description: zod.string(),
 });
 
-const updateTode = zod.object({
+const updateTodo = zod.object({
   id: zod.string(),
 });
 
 module.exports = {
   createTodo: createTodo,
-  updateTode: updateTode,
+  updateTodo: updateTodo,
 };
